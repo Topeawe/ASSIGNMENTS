@@ -1,0 +1,97 @@
+
+body {
+    background-color: #5F9DF7;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    max-width: 600px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(115, 174, 224);
+
+}
+
+.reg-form h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    color: #fff;
+    text-shadow: 1px 0px 2px #191919;
+}
+
+.reg-form p {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    color: #191919;
+    text-transform: capitalize;
+    font-weight: 55px;
+}
+
+ .reg-form .input {
+    font-size: 14px;
+    padding: 15px 10px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    text-transform: ;
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    justify-Content: center;
+    align-items:center;
+    margin-top:50px
+  }
+
+.btn {
+    border-radius: 50px;  
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #5F9DF7;
+  padding: 10px 30px;
+  transition: 0.5s;
+  text-transform:uppercase;
+  margin: 20px;
+ 
+}
+
+.btn:hover {
+    color: #101010;
+    background-color: #fff;
+    transform: scale(1.07);
+    transition: all 0.5s;
+}
+
+.button {
+    border-radius: 50px;  
+    color: #101010;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #fff;
+    padding: 8px 30px;
+    transition: 0.5s;
+    text-transform:uppercase;
+    border-color: #fff;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #5F9DF7;
+    transform: scale(1.07);
+    transition: all 0.5s;
+    border-color: #5F9DF7;
+    cursor: pointer;
+    
+}

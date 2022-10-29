@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration-Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="reg-form">
+      <form action="" method="post">
+        <h1>Register</h1>
+        <p>First Name:</p>
+        <input type="text" placeholder="First Name" class="input">
+        <p>Last Name:</p>
+        <input type="text" placeholder="Last Name" class="input">
+        <p>Phone Number:</p>
+        <input type="text" placeholder="Phone Number" class="input" required>
+        <p>Email:</p>
+        <input type="email" required placeholder="@example.com" class="input">
+        <p>Gender</p>
+        <select class="gender">
+          <option value="select">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+        <br>
+        <p>Date of Birth</p>
+        <input type="date" id="date" name="date" class="date">
+        <br>
+        <p>Favorite color</p>
+        <input type="color" id="favcolor" name="favcolor" value="#ebebeb" class="color">
+        <div class="action">
+          <a href="./login.html" type="submit" class="btn">Register</a>
+          <input type="reset" type="button" class="button">
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

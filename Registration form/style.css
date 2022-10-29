@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url("./image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.reg-form {
+    background-color: transparent;
+   width: 50%;
+   padding: 10px 20px;
+
+}
+
+.reg-form h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    color: #fff;
+    text-shadow: 1px 0px 2px #191919;
+}
+
+.reg-form p {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    color: #191919;
+    text-transform: capitalize;
+    font-weight: 55px;
+}
+
+ .reg-form .input {
+    font-size: 14px;
+    padding: 15px 10px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    text-transform: ;
+    cursor: pointer;
+}
+
+.date {
+    width: 25%;
+    font-size: 10px;
+    padding: 8px 9px;
+    color: grey;
+    cursor: pointer;
+}
+
+.gender {
+    width: 15%;
+    font-size: 15px;
+    padding: 8px 9px;
+    color: grey;
+    cursor: pointer;
+}
+
+
+.action {
+  display: flex;
+  justify-Content: center;
+  align-items:center;
+  margin-top:50px
+}
+
+.btn {
+    border-radius: 50px;  
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #5F9DF7;
+  padding: 10px 30px;
+  transition: 0.5s;
+  text-transform:uppercase;
+  margin: 20px;
+ 
+}
+
+.btn:hover {
+    color: #101010;
+    background-color: #fff;
+    transform: scale(1.07);
+    transition: all 0.5s;
+}
+
+.button {
+    border-radius: 50px;  
+    color: #101010;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #fff;
+    padding: 8px 40px;
+    transition: 0.5s;
+    text-transform:uppercase;
+    border-color: #fff;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #5F9DF7;
+    transform: scale(1.07);
+    transition: all 0.5s;
+    border-color: #5F9DF7;
+    cursor: pointer;
+    
+}
+
+
+
+
+
